@@ -404,3 +404,11 @@ character_config:
         region: 'ap-guangzhou'
         source_lang: 'zh'
         target_lang: 'ja'
+# Add this section to the configuration
+twitch:
+  enabled: false
+  token: "your_oauth_token"
+  channel: "your_channel"
+  bot_name: "your_bot_name"
+  client_id: "your_client_id"
+  prefix: "!"
